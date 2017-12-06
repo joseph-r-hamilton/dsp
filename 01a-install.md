@@ -22,8 +22,8 @@ spyder
 ```
 
 Command | Result
-====== | ====
-python | Python 3.6.3 |Anaconda, Inc.| (default, Oct 13 2017, 12:02:49) 
+------  | ------
+python | Python 3.6.3 \|Anaconda, Inc.\| (default, Oct 13 2017, 12:02:49) 
 ipython | IPython 6.1.0 -- An enhanced Interactive Python.
 ipython notebook | [I 16:19:43.360 NotebookApp] The Jupyter Notebook is running 
 spyder | Spyder started... IPython 6.1.0 -- An enhanced Interactive Python.
@@ -64,14 +64,14 @@ To prepare for the bootcamp, I installed Anaconda for Python 3 in a Linux VM, be
 
 How can you check the version of Python installed if you happen to be on an unfamiliar computer?
 
-''' bash
+```bash
 $ python -V
-'''
+```
 
 Or sometimes just
-''' bash
+```bash
 $ ls `which python`
-'''
+```
  
 The above is probably the fastest way.  But it assumes a system with both Python 2 and Python 3 with symbolic links set up to handle things.  This IS common practice at the moment.  Indeed, it even works for the Anaconda installation.  But it wasn't the case a few years ago... and one has to imagine that EVENTUALLY Python 2 will fade.
 
