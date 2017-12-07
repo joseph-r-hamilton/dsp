@@ -23,7 +23,7 @@ Command | Action
 ------- | ------
 `pwd` | show current working directory path
 `cd otherdir` | change current working directory path
-`mkdir newdir | creating a directory
+`mkdir newdir` | creating a directory
 `rmdir olddir` OR `rm -rf olddir` | deleting a directory
 `touch newfile` | creating a file using `touch` command
 `rm oldfile` | deleting a file
