@@ -81,7 +81,12 @@ Upload these 3 files to the [`editors`](editors/) folder.
 
 What terminal editor will be your preferred choice of use? How did you make your decision?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+vi
+
+More than a quarter century or experience using vi sorta tilts this one.  I MAY use vim here.  I loaded gvim
+to have it ready.  But past attempts to use vim didn't convert me.  We'll see...  But when gvim gives more
+functionality than vim and emacs pops you out to another window... honestly, for a strict terminal editor
+the choice is just nano and vi.
 
 --
 
@@ -89,6 +94,10 @@ What terminal editor will be your preferred choice of use? How did you make your
 
 What graphical editor will you use? How did you make your decision? What are some interesting features of your editor? What are some useful keyboard shortcuts for your editor? How do you customize your editor?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+Sigh... to be honest, I've not made any decision.  I loaded them all.  And I'm familiar with others we've not even discussed like NinjaIDE or Komodo or (gasp) Eclipse.  I did load SciTE.
+
+It all sort of depends on WHAT I want the IDE for.  For fast, simple, yet a bit of syntax coloring, SciTE.  Rodeo was amazingly fast for what it appears to do.  For stuff focused on data, that looks most promising.  PyCharm seems (cough.. cough..) charming for general python projects.  When we focus more on web servers, I imagine others might be better.  I'll have to wait and see...
+
+As for customizing, I increased font sizes on several.  For shortcuts, the most important thing for many of these is how to bounce between panes/windows.  It's nice to have iPython right there (Spyder, Rodeo) but I can manage that just fine with vi in one tab in Konsole and iPython in the next tab.
 
  
