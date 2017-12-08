@@ -12,11 +12,11 @@ For quick and easy interactive practice with Python, many people enjoy [Codecade
 
 How are Python lists and tuples similar and different? Which will work as keys in dictionaries? Why?
 
-Tuples don't change - they are immutable.  Lists can be changed.  They can grow, shrink, etc.
-
-Tuples and lists are similar because they have the same format - they look the same.
-
-Tuples can be used as keys in dictionaries because they are hashable.
+>>>Tuples don't change - they are immutable.  Lists can be changed.  They can grow, shrink, etc.
+>>>
+>>>Tuples and lists are similar because they have the same format - they look the same.
+>>>
+>>>Tuples can be used as keys in dictionaries because they are hashable.
 
 ---
 
@@ -24,9 +24,9 @@ Tuples can be used as keys in dictionaries because they are hashable.
 
 How are Python lists and sets similar and different? Give examples of using both. How does performance compare between lists and sets for finding an element. Why?
 
-Lists and sets are similar in the sense that they're collections of items.  But lists have a guaranteed order and can have multiple elements with the same value.  In that sense, a list's focus is a position, a slot and what's in that slot.  A set's focus is on the value, not the slot, and whether the value is in the SET, not a position in an ordered list.
-
-Since a set's entire purpose is what's "IN" the set, it's set up internally as a hash.  A set must be able to determine whether a "new" element is already in the set when tries to add it.  A list doesn't - it just tacks it at the end.  So the machinery for "finding an element" is already baked into the very structure underyling the functionality of a set.  
+>>>Lists and sets are similar in the sense that they're collections of items.  But lists have a guaranteed order and can have multiple elements with the same value.  In that sense, a list's focus is a position, a slot and what's in that slot.  A set's focus is on the value, not the slot, and whether the value is in the SET, not a position in an ordered list.
+>>>
+>>>Since a set's entire purpose is what's "IN" the set, it's set up internally as a hash.  A set must be able to determine whether a "new" element is already in the set when tries to add it.  A list doesn't - it just tacks it at the end.  So the machinery for "finding an element" is already baked into the very structure underyling the functionality of a set.  
 
 
 ---
@@ -35,7 +35,7 @@ Since a set's entire purpose is what's "IN" the set, it's set up internally as a
 
 Describe Python's `lambda`. What is it, and what is it used for? Give at least one example, including an example of using a `lambda` in the `key` argument to `sorted`.
 
-A lambda is sort of a one-line function.  In python it's often directly interchangeable with a function definition.
+>>>A lambda is sort of a one-line function.  In python it's often directly interchangeable with a function definition.
 
 ```python
 def this_is_a_function(x,y)
@@ -45,7 +45,7 @@ lambda x,y: x+y
 
 ```
 
-The sorted function uses a hash function of a kind to map from whatever's being sorted into the thing that's actually geing compared for sorting.  This has replaced the now deprecated "cmp" argument which was doing a similar thing but in a more verbose, repetitive fashion.
+>>>The sorted function uses a hash function of a kind to map from whatever's being sorted into the thing that's actually geing compared for sorting.  This has replaced the now deprecated "cmp" argument which was doing a similar thing but in a more verbose, repetitive fashion.
 
 ```python
 sorted(list_of_lists,key=lambda x:x[1])
@@ -58,9 +58,9 @@ sorted(list_of_lists,key=lambda x:x[1])
 
 Explain list comprehensions. Give examples and show equivalents with `map` and `filter`. How do their capabilities compare? Also demonstrate set comprehensions and dictionary comprehensions.
 
-List comprehensions flip around iteration to avoid the necessity of writing out the loop syntax.
-
-These are equivalent:
+>>>List comprehensions flip around iteration to avoid the necessity of writing out the loop syntax.
+>>>
+>>>These are equivalent:
 
 ```python
 a1 = range(10)
@@ -74,7 +74,7 @@ a1 = range(10)
 a2 = [x+1 for x in a1]
 ```
 
-Equivalence of using map with list and a list comprehension:
+>>>Equivalence of using map with list and a list comprehension:
 
 ```python
 a1 = range(10)
@@ -87,7 +87,7 @@ a1 = range(10)
 a2 = [(lambda x:x+1)(a) for a in a1] # including lambda here to show equivalence - could have been a function call
 ```
 
-Equivalence of using filter with list and a list comprehension:
+>>>Equivalence of using filter with list and a list comprehension:
 
 ```python
 a1 = range(10)
@@ -99,14 +99,14 @@ a1 = range(10)
 a2 = [a for a in a1 if x>5] # dropping the lambda this time, because...
 ```
 
-Dictionary comprehension:
+>>>Dictionary comprehension:
 
 ```python
 a1 = range(10)
 a2 = {a:a+1 for a in a1]}
 ```
 
-Set comprehension:
+>>>Set comprehension:
 ```python
 { x%4 for x in range(20)}
 ```
