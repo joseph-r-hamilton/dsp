@@ -112,7 +112,11 @@ Elvis Presley had a twin brother who died at birth.  What is the probability tha
 ### Q6. Bayesian &amp; Frequentist Comparison  
 How do frequentist and Bayesian statistics compare?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> Frequentist statisticians compare in a Truth Test fashion.  Something is deemed True or False.
+
+>> Bayesian statisticians compare by assessing relative probabilities between mutually exclusive possible alternatives.
+
+>> If that were all that was different between these approaches, you could suggest Bayesian collapses to Frequentist if you just consider A and Not A to be your two mutually exclusive hypotheses.  But these approaches differ because they rely on somewhat different ideas of what Probability even is.  A Frequentist view doesn't assume probability distributions of things but does assume with infinite measurements we will (eventually) assess the real probability distributions of the random variables describing the phemonemon we're measuring.  This combined with things like the Central Limit Theorem permit some fairly powerful analyses whereby we can assess relations and make predictions which can be proclaimed to be correct within a calculable percentage chance.  A Bayesian does make assumptions about probability distributions of any number of things.  Then they can fold these assumptions into their methods and update them iteratively upon new information.  A general benefit of this approach is that it permits a more straightforward way to fold in as much relevant information as possible.
 
 ---
 
